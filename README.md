@@ -1,7 +1,6 @@
 # README
 
-* Ruby version
-5.0.0
+* Ruby version - 2.2.4
 
 * System dependencies
 
