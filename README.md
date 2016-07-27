@@ -1,6 +1,6 @@
 # README
 
-* Ruby version - 2.2.4
+* Ruby version - 2.3.1
 
 * System dependencies
 
