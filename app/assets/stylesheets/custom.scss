@@ -1,6 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* variables */
+$sky-blue: #04e7fe;
+
 /* universal */
 
 body {
@@ -14,9 +17,9 @@ textarea{
 }
 .center {
   text-align: center;
-}
-.center h1 {
-  margin-bottom: 10px;
+  h1 {
+    margin-bottom: 10px;
+  }
 }
 
 /* header */
@@ -29,11 +32,10 @@ textarea{
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
-}
-
-#logo:hover {
-  color: #04e7fe;
-  text-decoration: underline;
+  &:hover {
+    color: $sky-blue;
+    text-decoration: underline;
+  }
 }
 
 /* footer */
@@ -43,20 +45,17 @@ footer {
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
-}
-
-footer small {
-  float: left;
-}
-
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 15px;
+  small {
+    float: left;
+  }
+  ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
+  }
 }
 
 /* typography */

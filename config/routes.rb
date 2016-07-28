@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root 'index_pages#home'
 
-  get 'index_pages/home'
-  get 'index_pages/about'
+  get '/home', to: 'index_pages#home'
+  get '/about', to: 'index_pages#about'
 
 end
