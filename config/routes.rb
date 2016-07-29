@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   get '/home', to: 'index_pages#home'
   get '/about', to: 'index_pages#about'
 
+  get '/signup', to: 'users#new'
+
 end
