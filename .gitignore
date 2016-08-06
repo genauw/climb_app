@@ -19,3 +19,8 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+app/controllers/sessions_controller_BACKUP_11085.rb
+app/controllers/sessions_controller_BASE_11085.rb
+app/controllers/sessions_controller_LOCAL_11085.rb
+app/controllers/sessions_controller_REMOTE_11085.rb
